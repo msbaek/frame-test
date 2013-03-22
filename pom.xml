@@ -8,7 +8,7 @@
     <packaging>apk</packaging>
     <name>Fragment Test app</name>
     <properties>
-        <robolectric.version>2.0-alpha-1</robolectric.version>
+        <robolectric.version>2.0-alpha-2</robolectric.version>
     </properties>
 
     <dependencies>

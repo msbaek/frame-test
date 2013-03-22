@@ -33,7 +33,7 @@ public class LoginFragmentTest {
 
     @Test
     public void login() {
-        EditText idEditText = fragment.getActivity().findViewById(R.id.main_id);
+        EditText idEditText = (EditText)fragment.getActivity().findViewById(R.id.main_id);
         assertThat(idEditText, notNullValue());
     }
 }
