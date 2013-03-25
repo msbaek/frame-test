@@ -12,10 +12,18 @@
     </properties>
 
     <dependencies>
+        <!--
         <dependency>
             <groupId>org.robolectric</groupId>
             <artifactId>robolectric</artifactId>
             <version>${robolectric.version}</version>
+            <scope>test</scope>
+        </dependency>
+        -->
+        <dependency>
+            <groupId>com.pivotallabs</groupId>
+            <artifactId>robolectric</artifactId>
+            <version>1.2</version>
             <scope>test</scope>
         </dependency>
 
